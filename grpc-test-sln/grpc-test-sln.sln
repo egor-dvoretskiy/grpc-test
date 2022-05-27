@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Commutator-Client", "Commutator\Commutator-Client.csproj", "{A7C25D84-D219-42CA-A837-D6B21DA30307}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommutatorServer", "Commutator-Server\CommutatorServer.csproj", "{52CFEE5D-1BEA-4684-9D21-28EC7E99EEAF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SimpleRPC", "SimpleRPC", "{563991ED-FE40-48EC-ABB5-580B08D8FCEE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client-sideStreamingRPC", "Client-sideStreamingRPC", "{095A20D5-BD6C-4557-98B6-A5BAD262260E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SummatorClient", "SummatorClient\SummatorClient.csproj", "{249206B4-406E-4530-8106-181F2859A44A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SummatorServer", "SummatorServer\SummatorServer.csproj", "{AD7FC99D-774A-4242-A254-1C8E52498562}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server-sideStreamingRPC", "Server-sideStreamingRPC", "{B41DD182-277F-4CE4-AD28-12454C0CEDC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiplierClient", "MultiplierClient\MultiplierClient.csproj", "{D2ADF383-68D0-4389-AFD9-41F0C1B17C71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiplierServer", "MultiplierServer\MultiplierServer.csproj", "{35AD4C91-E0DD-4394-AD58-19029F7F0355}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bi-directionalStreamingRPC", "Bi-directionalStreamingRPC", "{F2C7839F-86FE-4367-9BEE-484A3DFAC8A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailerClient", "MailerClient\MailerClient.csproj", "{6D1A1396-C8C8-472A-B739-91B24A2249D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailerServer", "MailerServer\MailerServer.csproj", "{62E28CAE-5446-459C-B8FE-5FB2DF281C85}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7C25D84-D219-42CA-A837-D6B21DA30307}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7C25D84-D219-42CA-A837-D6B21DA30307}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7C25D84-D219-42CA-A837-D6B21DA30307}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7C25D84-D219-42CA-A837-D6B21DA30307}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52CFEE5D-1BEA-4684-9D21-28EC7E99EEAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52CFEE5D-1BEA-4684-9D21-28EC7E99EEAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52CFEE5D-1BEA-4684-9D21-28EC7E99EEAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52CFEE5D-1BEA-4684-9D21-28EC7E99EEAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{249206B4-406E-4530-8106-181F2859A44A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{249206B4-406E-4530-8106-181F2859A44A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{249206B4-406E-4530-8106-181F2859A44A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{249206B4-406E-4530-8106-181F2859A44A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD7FC99D-774A-4242-A254-1C8E52498562}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD7FC99D-774A-4242-A254-1C8E52498562}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD7FC99D-774A-4242-A254-1C8E52498562}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD7FC99D-774A-4242-A254-1C8E52498562}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2ADF383-68D0-4389-AFD9-41F0C1B17C71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2ADF383-68D0-4389-AFD9-41F0C1B17C71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2ADF383-68D0-4389-AFD9-41F0C1B17C71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2ADF383-68D0-4389-AFD9-41F0C1B17C71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35AD4C91-E0DD-4394-AD58-19029F7F0355}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35AD4C91-E0DD-4394-AD58-19029F7F0355}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35AD4C91-E0DD-4394-AD58-19029F7F0355}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35AD4C91-E0DD-4394-AD58-19029F7F0355}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D1A1396-C8C8-472A-B739-91B24A2249D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D1A1396-C8C8-472A-B739-91B24A2249D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D1A1396-C8C8-472A-B739-91B24A2249D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D1A1396-C8C8-472A-B739-91B24A2249D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62E28CAE-5446-459C-B8FE-5FB2DF281C85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62E28CAE-5446-459C-B8FE-5FB2DF281C85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62E28CAE-5446-459C-B8FE-5FB2DF281C85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62E28CAE-5446-459C-B8FE-5FB2DF281C85}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A7C25D84-D219-42CA-A837-D6B21DA30307} = {563991ED-FE40-48EC-ABB5-580B08D8FCEE}
+		{52CFEE5D-1BEA-4684-9D21-28EC7E99EEAF} = {563991ED-FE40-48EC-ABB5-580B08D8FCEE}
+		{249206B4-406E-4530-8106-181F2859A44A} = {095A20D5-BD6C-4557-98B6-A5BAD262260E}
+		{AD7FC99D-774A-4242-A254-1C8E52498562} = {095A20D5-BD6C-4557-98B6-A5BAD262260E}
+		{D2ADF383-68D0-4389-AFD9-41F0C1B17C71} = {B41DD182-277F-4CE4-AD28-12454C0CEDC4}
+		{35AD4C91-E0DD-4394-AD58-19029F7F0355} = {B41DD182-277F-4CE4-AD28-12454C0CEDC4}
+		{6D1A1396-C8C8-472A-B739-91B24A2249D5} = {F2C7839F-86FE-4367-9BEE-484A3DFAC8A6}
+		{62E28CAE-5446-459C-B8FE-5FB2DF281C85} = {F2C7839F-86FE-4367-9BEE-484A3DFAC8A6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {10B8DD2E-EE3B-41B1-8547-9C478414DDC4}
+	EndGlobalSection
+EndGlobal
