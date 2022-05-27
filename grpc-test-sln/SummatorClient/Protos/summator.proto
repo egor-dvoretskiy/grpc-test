@@ -1,0 +1,16 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "Protos.GrpcSummatorClient";
+
+service Summator {
+	rpc Summarize (stream SummRequest) returns (SummReply);
+}
+
+message SummRequest {
+	int32 count = 1;
+}
+
+message SummReply {
+	int32 summ = 1;
+	repeated int32 nums = 2;
+}
