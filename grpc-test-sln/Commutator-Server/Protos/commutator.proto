@@ -1,0 +1,16 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "Protos.GrpcCommutatorServer";
+
+service Commutator {
+	rpc GetData (ConnectionRequest) returns (ConnectionReply) {}
+}
+
+message ConnectionRequest {
+	string messageRequest = 1;
+}
+
+message ConnectionReply {
+	string messageReply = 1;
+	bytes data = 2;
+}
