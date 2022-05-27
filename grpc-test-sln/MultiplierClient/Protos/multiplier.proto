@@ -1,0 +1,14 @@
+﻿syntax = "proto3";
+
+package mult;
+
+import "google/protobuf/empty.proto";
+
+service Multiplier {
+	rpc Multiply (google.protobuf.Empty) returns (stream MultiplyReply);
+}
+
+message MultiplyReply {
+	int32 res = 1;
+	repeated int32 nums = 2;
+}
